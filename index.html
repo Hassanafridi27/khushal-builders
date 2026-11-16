@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushal Builders Inc. | General Contractor, Renovation & Flooring Specialists</title>
+  <meta name="description" content="Khushal Builders Inc. - Transforming dreams into concrete solutions. Premier renovation, kitchen remodeling, home extensions, basement finishing, and flooring in Greater Toronto Area. Call 647-270-0307.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#F59E0B',
+              amber: '#D97706',
+              lightGold: '#FCD34D',
+              dark: '#0B0F17',
+              darker: '#06090E',
+              slate: '#131B2B',
+              card: '#182235',
+              border: '#26354D'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Cabinet Grotesk"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Subtle construction accent striping */
+    .hazard-stripe {
+      background: repeating-linear-gradient(
+        -45deg,
+        #F59E0B,
+        #F59E0B 16px,
+        #0B0F17 16px,
+        #0B0F17 32px
+      );
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #D97706 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glow-gold {
+      box-shadow: 0 0 35px -5px rgba(245, 158, 11, 0.35);
+    }
+    .badge-blur {
+      backdrop-filter: blur(12px);
+      background: rgba(19, 27, 43, 0.75);
+    }
+  </style>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-gold selection:text-black">
+
+  <!-- Top Caution Stripe Bar -->
+  <div class="h-1.5 hazard-stripe w-full"></div>
+
+  <!-- Announcement & Quick Contact Top Bar -->
+  <div class="bg-brand-darker border-b border-brand-border/60 py-2.5 px-4 text-xs md:text-sm">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-2 text-slate-300">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-amber-500/20 text-amber-400 border border-amber-500/30">
+          GTA SPECIAL
+        </span>
+        <span class="hidden sm:inline">Flooring from $4.50/sq.ft. • Licensed & Insured General Contractors</span>
+        <span class="sm:hidden">Flooring from $4.50/sq.ft.</span>
+      </div>
+      <div class="flex items-center gap-5 ml-auto text-slate-300">
+        <a href="mailto:khushalbuildersinc@gmail.com" class="hover:text-brand-gold transition flex items-center gap-1.5 hidden md:flex">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-brand-gold"></i>
+          khushalbuildersinc@gmail.com
+        </a>
+        <a href="tel:6472700307" class="hover:text-brand-gold transition flex items-center gap-1.5 font-bold text-amber-400">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5"></i>
+          Direct: 647-270-0307
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Navigation -->
+  <header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo Branding -->
+      <a href="#" class="flex items-center gap-3.5 group">
+        <img src="assets/logo-horizontal.svg" alt="Khushal Builders Inc." class="h-12 w-auto transition transform group-hover:scale-[1.02]">
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
+        <a href="#services" class="hover:text-brand-gold transition">Services</a>
+        <a href="#flooring" class="hover:text-brand-gold transition flex items-center gap-1">
+          Flooring Deals
+          <span class="bg-amber-500 text-black text-[10px] font-black px-1.5 py-0.5 rounded-full uppercase">Hot</span>
+        </a>
+        <a href="#calculator" class="hover:text-brand-gold transition">Instant Estimator</a>
+        <a href="#portfolio" class="hover:text-brand-gold transition">Projects</a>
+        <a href="#why-us" class="hover:text-brand-gold transition">Why Us</a>
+        <a href="logo-showcase.html" class="hover:text-brand-gold transition text-xs border border-brand-border px-2.5 py-1 rounded bg-brand-slate text-amber-400">
+          Brand Identity
+        </a>
+      </nav>
+
+      <!-- CTA Button -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="tel:6472700307" class="flex items-center gap-2 bg-brand-gold hover:bg-amber-400 text-black font-extrabold px-5 py-2.5 rounded-lg text-sm transition-all shadow-lg shadow-amber-500/20 transform hover:-translate-y-0.5">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          <span>Call: 647-270-0307</span>
+        </a>
+        <a href="#contact" class="hidden xl:inline-flex bg-brand-slate hover:bg-slate-800 text-white font-semibold px-4 py-2.5 rounded-lg text-sm border border-brand-border transition">
+          Free Consultation
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-brand-slate" aria-label="Toggle Navigation">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-brand-darker border-b border-brand-border px-6 py-6 space-y-4">
+      <a href="#services" class="block text-slate-200 hover:text-brand-gold py-1">Services</a>
+      <a href="#flooring" class="block text-slate-200 hover:text-brand-gold py-1">Flooring Specials</a>
+      <a href="#calculator" class="block text-slate-200 hover:text-brand-gold py-1">Cost Estimator</a>
+      <a href="#portfolio" class="block text-slate-200 hover:text-brand-gold py-1">Portfolio</a>
+      <a href="#why-us" class="block text-slate-200 hover:text-brand-gold py-1">Why Khushal Builders</a>
+      <a href="logo-showcase.html" class="block text-amber-400 font-bold py-1">Brand Assets & Logo Guide</a>
+      <a href="tel:6472700307" class="w-full flex items-center justify-center gap-2 bg-brand-gold text-black font-bold py-3 rounded-lg">
+        <i data-lucide="phone" class="w-4 h-4"></i>
+        Call (647) 270-0307
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-12 pb-24 lg:pt-20 lg:pb-32 overflow-hidden">
+    <!-- Background Architectural Ambient Imagery & Radial Gradients -->
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(245,158,11,0.15),rgba(11,15,23,0))]"></div>
+    <div class="absolute inset-y-0 right-0 w-1/2 -z-10 opacity-10 bg-[radial-gradient(circle_at_center,#F59E0B_0,transparent_70%)]"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Trust Badge Pill -->
+          <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs sm:text-sm font-semibold">
+            <i data-lucide="shield-check" class="w-4 h-4 text-amber-400"></i>
+            <span>Licensed & Insured General Contractor • GTA & Ontario</span>
+          </div>
+
+          <!-- Hero Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black font-display tracking-tight text-white leading-tight">
+            We Transform Your Dreams Into <br>
+            <span class="gold-gradient-text">Concrete Solutions.</span>
+          </h1>
+
+          <!-- Hero Subtitle -->
+          <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            From modern luxury kitchen remodels and basement secondary suites to full home extensions, commercial build-outs, and premium flooring starting at just <span class="text-amber-400 font-bold">$4.50/sq.ft.</span>
+          </p>
+
+          <!-- Core Value Badges -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-left">
+            <div class="bg-brand-slate/80 border border-brand-border p-3 rounded-lg flex items-center gap-3">
+              <div class="p-2 bg-amber-500/10 rounded text-amber-400">
+                <i data-lucide="ruler" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold text-slate-200">Architectural Drawings</span>
+            </div>
+            <div class="bg-brand-slate/80 border border-brand-border p-3 rounded-lg flex items-center gap-3">
+              <div class="p-2 bg-amber-500/10 rounded text-amber-400">
+                <i data-lucide="badge-percent" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold text-slate-200">Clear Upfront Pricing</span>
+            </div>
+            <div class="col-span-2 sm:col-span-1 bg-brand-slate/80 border border-brand-border p-3 rounded-lg flex items-center gap-3">
+              <div class="p-2 bg-amber-500/10 rounded text-amber-400">
+                <i data-lucide="award" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold text-slate-200">100% Guaranteed</span>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+            <a href="tel:6472700307" class="w-full sm:w-auto flex items-center justify-center gap-3 bg-brand-gold hover:bg-amber-400 text-black font-extrabold px-8 py-4 rounded-xl text-base transition-all shadow-xl shadow-amber-500/25 glow-gold">
+              <i data-lucide="phone-call" class="w-5 h-5"></i>
+              <span>Call 647-270-0307</span>
+            </a>
+            <a href="#calculator" class="w-full sm:w-auto flex items-center justify-center gap-2 bg-brand-slate hover:bg-slate-800 text-white font-bold px-7 py-4 rounded-xl border border-brand-border text-base transition">
+              <i data-lucide="calculator" class="w-5 h-5 text-amber-400"></i>
+              <span>Estimate Project Cost</span>
+            </a>
+          </div>
+
+          <!-- Trust Subtext -->
+          <p class="text-xs text-slate-400 flex items-center justify-center lg:justify-start gap-2 pt-2">
+            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i>
+            Free on-site consultation & quote across Toronto, Mississauga, Brampton, Vaughan & GTA.
+          </p>
+
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="lg:col-span-5 relative">
+          <!-- Ambient Glow -->
+          <div class="absolute -inset-1 bg-gradient-to-r from-amber-500 to-orange-600 rounded-2xl blur-lg opacity-30"></div>
+          
+          <div class="relative bg-brand-slate border border-brand-border rounded-2xl overflow-hidden shadow-2xl">
+            <!-- Modern Kitchen Showcase (Echoing the flyer's luxury dark kitchen) -->
+            <div class="relative h-72 sm:h-80 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" alt="Luxury Modern Kitchen Renovation by Khushal Builders" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-slate via-transparent to-transparent"></div>
+              
+              <div class="absolute top-4 left-4 badge-blur border border-amber-500/40 text-amber-300 px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 shadow">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
+                Turnkey Renovations
+              </div>
+              <div class="absolute bottom-4 left-4 right-4">
+                <p class="text-xs font-bold uppercase tracking-wider text-amber-400">Featured Renovation</p>
+                <h3 class="text-lg font-bold text-white">Custom Open-Concept Kitchen & Island</h3>
+              </div>
+            </div>
+
+            <!-- Quick Lead Card in Hero -->
+            <div class="p-6 space-y-4 bg-brand-card">
+              <div class="flex items-center justify-between border-b border-brand-border/60 pb-3">
+                <div class="flex items-center gap-2">
+                  <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></div>
+                  <span class="text-xs font-semibold text-slate-300">Accepting GTA Projects For This Season</span>
+                </div>
+                <span class="text-xs text-amber-400 font-bold">Free Estimates</span>
+              </div>
+
+              <!-- Quick Inquiry Inputs -->
+              <form id="heroQuickForm" onsubmit="event.preventDefault(); submitInquiry(this);" class="space-y-3">
+                <input type="text" placeholder="Your Name" required class="w-full bg-brand-dark border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+                <input type="tel" placeholder="Phone Number (e.g. 647-xxx-xxxx)" required class="w-full bg-brand-dark border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+                <select class="w-full bg-brand-dark border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-amber-500">
+                  <option value="Kitchen Renovation">Kitchen Renovation</option>
+                  <option value="Flooring (Laminate / Vinyl / Hardwood)">Flooring Installation</option>
+                  <option value="Basement Construction">Basement Finishing / Secondary Suite</option>
+                  <option value="Home Extension / Additions">Home Extensions & Additions</option>
+                  <option value="Commercial / New Construction">Commercial / New Construction</option>
+                  <option value="Full House Renovation">Full House Renovation</option>
+                </select>
+                <button type="submit" class="w-full bg-brand-gold hover:bg-amber-400 text-black font-extrabold py-3 rounded-lg text-sm transition font-sans flex items-center justify-center gap-2">
+                  <i data-lucide="calendar" class="w-4 h-4"></i>
+                  Request Free On-Site Consultation
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Flooring Promotion Spotlight Section (Direct from Flyer) -->
+  <section id="flooring" class="py-16 bg-gradient-to-b from-brand-dark to-brand-slate/60 border-y border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-bold uppercase tracking-wider mb-3">
+          <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+          Unbeatable Value Guarantee
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-display text-white">
+          Specialized Flooring Services & Pricing
+        </h2>
+        <p class="text-slate-400 mt-3 text-base">
+          Transparent, fixed square-foot rates with expert installation, underlayment precision, and comprehensive workmanship warranty.
+        </p>
+      </div>
+
+      <!-- Pricing Cards Grid (Flyer Rates) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Laminate Flooring -->
+        <div class="relative bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-7 transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="h-44 rounded-xl overflow-hidden mb-6 relative">
+              <img src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=600&q=80" alt="Laminate Flooring Installation" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <span class="absolute bottom-3 left-3 bg-brand-dark/90 text-amber-400 border border-brand-border px-2.5 py-0.5 rounded text-xs font-bold">
+                Most Cost-Effective
+              </span>
+            </div>
+            
+            <h3 class="text-xl font-bold text-white mb-2">Laminate Flooring</h3>
+            <p class="text-slate-400 text-sm mb-4">Durable, scratch-resistant, and ideal for busy living rooms, bedrooms, and high-traffic rental units.</p>
+            
+            <div class="flex items-baseline gap-2 mb-6 border-b border-brand-border pb-4">
+              <span class="text-4xl font-black text-amber-400">$4.50</span>
+              <span class="text-slate-400 text-sm font-semibold">/ sq. ft.</span>
+            </div>
+
+            <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Precision click-lock installation
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Acoustic underlayment prep
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Quarter-round & transition fitting
+              </li>
+            </ul>
+          </div>
+
+          <a href="#calculator" onclick="setCalculatorType('laminate');" class="w-full py-3 bg-brand-slate hover:bg-amber-500 hover:text-black text-white font-bold text-center rounded-xl transition border border-brand-border">
+            Calculate Laminate Quote
+          </a>
+        </div>
+
+        <!-- Luxury Vinyl Flooring (Featured) -->
+        <div class="relative bg-brand-card border-2 border-brand-gold rounded-2xl p-7 transition duration-300 flex flex-col justify-between shadow-xl shadow-amber-500/10 transform lg:-translate-y-2">
+          <!-- Featured Badge -->
+          <div class="absolute -top-3.5 left-1/2 transform -translate-x-1/2 bg-brand-gold text-black text-xs font-black px-4 py-1 rounded-full uppercase tracking-wider">
+            Most Popular Choice
+          </div>
+
+          <div>
+            <div class="h-44 rounded-xl overflow-hidden mb-6 relative">
+              <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Vinyl Flooring Installation" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <span class="absolute bottom-3 left-3 bg-amber-500 text-black px-2.5 py-0.5 rounded text-xs font-black">
+                100% Waterproof
+              </span>
+            </div>
+            
+            <h3 class="text-xl font-bold text-white mb-2">Luxury Vinyl Plank (LVP)</h3>
+            <p class="text-slate-400 text-sm mb-4">Completely waterproof, pet-friendly, and perfect for kitchens, basements, bathrooms, and modern open floors.</p>
+            
+            <div class="flex items-baseline gap-2 mb-6 border-b border-brand-border pb-4">
+              <span class="text-4xl font-black text-amber-400">$5.00</span>
+              <span class="text-slate-400 text-sm font-semibold">/ sq. ft.</span>
+            </div>
+
+            <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                100% moisture & water proof
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Sound dampening rigid core
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Seamless door & closet transitions
+              </li>
+            </ul>
+          </div>
+
+          <a href="#calculator" onclick="setCalculatorType('vinyl');" class="w-full py-3 bg-brand-gold hover:bg-amber-400 text-black font-extrabold text-center rounded-xl transition shadow-lg shadow-amber-500/20">
+            Calculate Vinyl Quote
+          </a>
+        </div>
+
+        <!-- Engineered Hardwood -->
+        <div class="relative bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-7 transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="h-44 rounded-xl overflow-hidden mb-6 relative">
+              <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef7?auto=format&fit=crop&w=600&q=80" alt="Engineered Hardwood Flooring" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <span class="absolute bottom-3 left-3 bg-brand-dark/90 text-amber-400 border border-brand-border px-2.5 py-0.5 rounded text-xs font-bold">
+                Luxury Home Value
+              </span>
+            </div>
+            
+            <h3 class="text-xl font-bold text-white mb-2">Engineered Hardwood</h3>
+            <p class="text-slate-400 text-sm mb-4">Genuine real-wood veneer with structural multi-ply stability. Adds immense beauty and resale value to your home.</p>
+            
+            <div class="flex items-baseline gap-2 mb-6 border-b border-brand-border pb-4">
+              <span class="text-4xl font-black text-amber-400">$7.00</span>
+              <span class="text-slate-400 text-sm font-semibold">/ sq. ft.</span>
+            </div>
+
+            <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Authentic natural hardwood aesthetics
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                High-end bevel & finish craftsmanship
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                Subfloor leveling & moisture check
+              </li>
+            </ul>
+          </div>
+
+          <a href="#calculator" onclick="setCalculatorType('hardwood');" class="w-full py-3 bg-brand-slate hover:bg-amber-500 hover:text-black text-white font-bold text-center rounded-xl transition border border-brand-border">
+            Calculate Hardwood Quote
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Quick Consultation CTA Footer -->
+      <div class="mt-12 bg-brand-slate border border-brand-border rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <div class="p-3 bg-amber-500/10 rounded-full text-amber-400">
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="text-base font-bold text-white">Have a custom room layout or multiple floors?</h4>
+            <p class="text-sm text-slate-400">We bring material samples directly to your doorstep during your free consultation.</p>
+          </div>
+        </div>
+        <a href="tel:6472700307" class="shrink-0 flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black font-extrabold px-6 py-3 rounded-lg text-sm transition">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          Call 647-270-0307
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Project & Flooring Cost Estimator -->
+  <section id="calculator" class="py-20 bg-brand-dark">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-brand-card border border-brand-border rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+        <!-- Accent Glow Corner -->
+        <div class="absolute -top-24 -right-24 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-bold uppercase mb-2">
+            <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
+            Interactive Tool
+          </div>
+          <h2 class="text-3xl font-extrabold font-display text-white">
+            Instant Project Cost Estimator
+          </h2>
+          <p class="text-slate-400 text-sm mt-2">
+            Get an instant ballpark estimate for your flooring or renovation project in seconds.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Estimator Controls -->
+          <div class="lg:col-span-7 space-y-6">
+            
+            <!-- Step 1: Select Type -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">1. Select Service / Flooring Material</label>
+              <div class="grid grid-cols-3 gap-2.5">
+                <button type="button" onclick="selectCalcType('laminate', 4.50)" id="calcBtn-laminate" class="calc-type-btn border-2 border-brand-gold bg-amber-500/15 text-amber-400 font-bold p-3 rounded-xl text-xs sm:text-sm text-center transition">
+                  <div>Laminate</div>
+                  <div class="text-xs opacity-75 font-normal">$4.50 / sq.ft</div>
+                </button>
+                <button type="button" onclick="selectCalcType('vinyl', 5.00)" id="calcBtn-vinyl" class="calc-type-btn border border-brand-border bg-brand-slate text-slate-300 font-semibold p-3 rounded-xl text-xs sm:text-sm text-center transition hover:border-amber-500">
+                  <div>Vinyl Plank</div>
+                  <div class="text-xs opacity-75 font-normal">$5.00 / sq.ft</div>
+                </button>
+                <button type="button" onclick="selectCalcType('hardwood', 7.00)" id="calcBtn-hardwood" class="calc-type-btn border border-brand-border bg-brand-slate text-slate-300 font-semibold p-3 rounded-xl text-xs sm:text-sm text-center transition hover:border-amber-500">
+                  <div>Hardwood</div>
+                  <div class="text-xs opacity-75 font-normal">$7.00 / sq.ft</div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Approximate Area Slider -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="text-xs font-bold uppercase tracking-wider text-slate-300">2. Estimated Area (Square Footage)</label>
+                <span id="areaDisplay" class="text-base font-extrabold text-amber-400 bg-brand-dark px-3 py-1 rounded border border-brand-border">
+                  500 sq. ft.
+                </span>
+              </div>
+              <input type="range" id="areaSlider" min="100" max="3000" step="50" value="500" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500">
+              <div class="flex justify-between text-[11px] text-slate-500 mt-1 font-mono">
+                <span>100 sq.ft (Room)</span>
+                <span>1,000 sq.ft (Main floor)</span>
+                <span>3,000 sq.ft (Whole home)</span>
+              </div>
+            </div>
+
+            <!-- Step 3: Optional Add-ons -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">3. Additional Prep (Optional)</label>
+              <div class="space-y-2">
+                <label class="flex items-center gap-3 p-2.5 rounded-lg bg-brand-slate/60 border border-brand-border cursor-pointer hover:bg-brand-slate">
+                  <input type="checkbox" id="addRemoval" onchange="calculateEstimate()" class="rounded bg-brand-dark border-slate-700 text-amber-500 focus:ring-0">
+                  <span class="text-xs sm:text-sm text-slate-300 flex-1">Old carpet / existing floor removal (+$0.80/sq.ft)</span>
+                </label>
+                <label class="flex items-center gap-3 p-2.5 rounded-lg bg-brand-slate/60 border border-brand-border cursor-pointer hover:bg-brand-slate">
+                  <input type="checkbox" id="addBaseboards" onchange="calculateEstimate()" class="rounded bg-brand-dark border-slate-700 text-amber-500 focus:ring-0">
+                  <span class="text-xs sm:text-sm text-slate-300 flex-1">New modern baseboard & trim installation (+$1.20/sq.ft)</span>
+                </label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Estimator Output Card -->
+          <div class="lg:col-span-5 bg-brand-darker border border-amber-500/40 rounded-2xl p-6 sm:p-8 flex flex-col justify-between text-center relative">
+            <div>
+              <span class="text-xs uppercase font-extrabold tracking-widest text-slate-400">Estimated Total Cost</span>
+              <div class="text-5xl sm:text-6xl font-black text-amber-400 my-4 tracking-tight" id="totalEstimateDisplay">
+                $2,250
+              </div>
+              <p class="text-xs text-slate-400" id="estimateBreakdown">
+                Includes labor, installation & standard materials for 500 sq.ft of Laminate.
+              </p>
+
+              <div class="my-6 border-t border-brand-border/80 pt-4 space-y-2 text-left text-xs text-slate-300">
+                <div class="flex justify-between">
+                  <span>Base Rate:</span>
+                  <span id="calcBaseRate" class="font-bold text-white">$4.50 / sq. ft.</span>
+                </div>
+                <div class="flex justify-between">
+                  <span>Free On-Site Measurement:</span>
+                  <span class="text-emerald-400 font-bold">Included</span>
+                </div>
+                <div class="flex justify-between">
+                  <span>Warranty:</span>
+                  <span class="text-white font-bold">Full Craftsmanship Guarantee</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <a href="#contact" onclick="prefillContactForm()" class="w-full block bg-brand-gold hover:bg-amber-400 text-black font-extrabold py-3.5 rounded-xl text-sm transition shadow-lg shadow-amber-500/25">
+                Lock In This Estimate & Book Visit
+              </a>
+              <a href="tel:6472700307" class="text-xs text-slate-400 hover:text-amber-400 block transition">
+                Questions? Call <strong>647-270-0307</strong>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Complete Services Offered (From the Flyer) -->
+  <section id="services" class="py-24 bg-brand-darker">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-bold uppercase tracking-wider mb-3">
+          <i data-lucide="wrench" class="w-3.5 h-3.5"></i>
+          Comprehensive Expertise
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-extrabold font-display text-white">
+          Complete Services Offered
+        </h2>
+        <p class="text-slate-400 mt-4 text-base sm:text-lg">
+          From foundation to final paint stroke, Khushal Builders Inc. is your dedicated partner for premier residential and commercial construction.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 1. General Renovation Services -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="hammer" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">General Renovation Services</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Complete turnkey home transformations. Interior walls, dry-walling, insulation, painting, trim carpentry, and modernization of living spaces.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Whole-home remodeling</li>
+            <li class="flex items-center gap-2">✓ Open-concept wall removals & structural beams</li>
+          </ul>
+        </div>
+
+        <!-- 2. Kitchen Renovation -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="utensils" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Kitchen Renovation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Custom chef kitchens featuring high-end cabinetry, quartz & granite waterfall countertops, stylish backsplashes, and integrated LED accent lighting.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Custom islands & bar seating</li>
+            <li class="flex items-center gap-2">✓ Modern plumbing & appliance rough-ins</li>
+          </ul>
+        </div>
+
+        <!-- 3. Home Extensions & Additions -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="maximize" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Home Extensions & Additions</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Expand your family’s living space with seamless room bump-outs, second-story additions, extended master suites, and sunrooms.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Foundation excavation & framing</li>
+            <li class="flex items-center gap-2">✓ Seamless architectural tie-in to existing roof</li>
+          </ul>
+        </div>
+
+        <!-- 4. Basement Construction -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="layers" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Basement Construction</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Turn unfinished, cold basements into vibrant living rooms, home theaters, or legal secondary rental suites with private walkout side-entrances.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Waterproofing & subfloor thermal prep</li>
+            <li class="flex items-center gap-2">✓ Legal second unit permit approvals</li>
+          </ul>
+        </div>
+
+        <!-- 5. Architectural Designs & Drawings -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="compass" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Architectural Designs / Drawings</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Professional blueprints, 3D renderings, structural engineering stamps, and city building permit paperwork handled end-to-end.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ City permit application management</li>
+            <li class="flex items-center gap-2">✓ 3D walkthroughs before construction</li>
+          </ul>
+        </div>
+
+        <!-- 6. Exterior Renovations -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="home" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Exterior Renovations</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Elevate curb appeal with modern exterior siding, stone veneer accents, stucco, roofing, windows, exterior entryways, and custom porches.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Modern board & batten / James Hardie</li>
+            <li class="flex items-center gap-2">✓ Energy-efficient windows & doors</li>
+          </ul>
+        </div>
+
+        <!-- 7. New Construction & Custom Builds -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="building" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">New Construction</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Ground-up residential custom home building. From site excavation and concrete foundation footings to structural framing and turnkey finishes.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Heavy excavation & concrete foundations</li>
+            <li class="flex items-center gap-2">✓ Custom luxury floor plans</li>
+          </ul>
+        </div>
+
+        <!-- 8. Additions & Expansions -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="expand" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Additions & Expansions</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Strategic expansion of garage space, master suites, in-law suites, and rear living areas engineered for optimal property value gain.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Heavy structural load-bearing design</li>
+            <li class="flex items-center gap-2">✓ Seamless interior flow</li>
+          </ul>
+        </div>
+
+        <!-- 9. Commercial Renovation + New Builds -->
+        <div class="bg-brand-card border border-brand-border hover:border-amber-500/50 rounded-2xl p-6 transition duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5 group-hover:bg-amber-500 group-hover:text-black transition">
+            <i data-lucide="store" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">Commercial Renovation & Builds</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Commercial tenant fit-outs, retail storefronts, office suites, restaurant renovations, and industrial warehouse enhancements.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5 border-t border-brand-border/60 pt-3">
+            <li class="flex items-center gap-2">✓ Commercial code & accessibility compliance</li>
+            <li class="flex items-center gap-2">✓ Fast turnaround to minimize business downtime</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Visual Project Gallery Showcase -->
+  <section id="portfolio" class="py-20 bg-brand-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-bold uppercase mb-2">
+            <i data-lucide="image" class="w-3.5 h-3.5"></i>
+            Our Work
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-display text-white">
+            Recent Transformation Projects
+          </h2>
+          <p class="text-slate-400 text-sm mt-1">High-craftsmanship results completed across the Greater Toronto Area.</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <a href="tel:6472700307" class="text-xs text-amber-400 hover:text-amber-300 font-bold border border-amber-500/30 bg-amber-500/10 px-4 py-2 rounded-lg flex items-center gap-1.5">
+            <span>Discuss Your Project With Our Lead Builder</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="relative group rounded-2xl overflow-hidden h-72 border border-brand-border">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80" alt="Kitchen Island Remodel" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/30 to-transparent opacity-90"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Kitchens</span>
+            <h4 class="text-base font-bold text-white">Dark Walnut & Quartz Island</h4>
+            <p class="text-xs text-slate-400">Toronto • Full Remodel</p>
+          </div>
+        </div>
+
+        <div class="relative group rounded-2xl overflow-hidden h-72 border border-brand-border">
+          <img src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=800&q=80" alt="Hardwood & Vinyl Flooring" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/30 to-transparent opacity-90"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Flooring</span>
+            <h4 class="text-base font-bold text-white">Engineered Oak Plank Installation</h4>
+            <p class="text-xs text-slate-400">Mississauga • 1,400 sq.ft</p>
+          </div>
+        </div>
+
+        <div class="relative group rounded-2xl overflow-hidden h-72 border border-brand-border">
+          <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Basement Suite" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/30 to-transparent opacity-90"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Basements</span>
+            <h4 class="text-base font-bold text-white">Legal 2-Bedroom Suite & Walkout</h4>
+            <p class="text-xs text-slate-400">Brampton • Turnkey Build</p>
+          </div>
+        </div>
+
+        <div class="relative group rounded-2xl overflow-hidden h-72 border border-brand-border">
+          <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" alt="Custom Home Extension" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/30 to-transparent opacity-90"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Extensions</span>
+            <h4 class="text-base font-bold text-white">Modern 2-Story Rear Expansion</h4>
+            <p class="text-xs text-slate-400">Vaughan • Design & Build</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4-Step Process Section -->
+  <section class="py-20 bg-brand-slate/40 border-y border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-extrabold font-display text-white">
+          How We Work With You
+        </h2>
+        <p class="text-slate-400 text-sm mt-2">Smooth, transparent, zero-stress project management from first call to final clean-up.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+        
+        <!-- Step 1 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl p-6 relative">
+          <div class="w-10 h-10 rounded-lg bg-amber-500 text-black font-black flex items-center justify-center text-lg mb-4">
+            01
+          </div>
+          <h4 class="text-lg font-bold text-white mb-2">Free Consultation</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            We meet at your property to understand your goals, measure the area, discuss material samples, and provide preliminary advice.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl p-6 relative">
+          <div class="w-10 h-10 rounded-lg bg-amber-500 text-black font-black flex items-center justify-center text-lg mb-4">
+            02
+          </div>
+          <h4 class="text-lg font-bold text-white mb-2">Transparent Quote</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            You receive an itemized, clear proposal with fixed timelines, material specifications, and zero hidden fees.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl p-6 relative">
+          <div class="w-10 h-10 rounded-lg bg-amber-500 text-black font-black flex items-center justify-center text-lg mb-4">
+            03
+          </div>
+          <h4 class="text-lg font-bold text-white mb-2">Master Craftsmanship</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Our licensed trades execute the work safely, cleanly, adhering to Ontario Building Codes with daily communication.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bg-brand-card border border-brand-border rounded-xl p-6 relative">
+          <div class="w-10 h-10 rounded-lg bg-amber-500 text-black font-black flex items-center justify-center text-lg mb-4">
+            04
+          </div>
+          <h4 class="text-lg font-bold text-white mb-2">Final Walkthrough</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Detailed inspection, complete post-construction cleanup, and handover with full warranty documentation.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Client Testimonials Section -->
+  <section class="py-20 bg-brand-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="flex items-center justify-center gap-1 text-amber-400 mb-2">
+          <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+        </div>
+        <h2 class="text-3xl font-extrabold font-display text-white">
+          What Homeowners Say
+        </h2>
+        <p class="text-slate-400 text-sm mt-2">Trusted by property owners throughout the Greater Toronto Area.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="bg-brand-card border border-brand-border rounded-2xl p-6 space-y-4">
+          <div class="flex text-amber-400 gap-1">
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+          </div>
+          <p class="text-slate-300 text-sm italic">
+            "Khushal Builders did 1,200 sq.ft of luxury vinyl flooring and a complete kitchen renovation for our home in Mississauga. They finished on budget, cleaned up every evening, and their pricing was completely transparent."
+          </p>
+          <div class="pt-2 border-t border-brand-border/60">
+            <h5 class="text-white text-sm font-bold">Harpreet S.</h5>
+            <span class="text-xs text-slate-500">Mississauga Homeowner</span>
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-2xl p-6 space-y-4">
+          <div class="flex text-amber-400 gap-1">
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+          </div>
+          <p class="text-slate-300 text-sm italic">
+            "Getting architectural drawings and city permits for our legal basement suite seemed overwhelming until we called Khushal Builders. They took care of everything from drawings to final inspection. Highly recommended!"
+          </p>
+          <div class="pt-2 border-t border-brand-border/60">
+            <h5 class="text-white text-sm font-bold">David & Elena M.</h5>
+            <span class="text-xs text-slate-500">Brampton Property Owners</span>
+          </div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-border rounded-2xl p-6 space-y-4">
+          <div class="flex text-amber-400 gap-1">
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+          </div>
+          <p class="text-slate-300 text-sm italic">
+            "Their slogan 'Concrete Solutions' is spot on. They built our rear house extension and matched the brickwork flawlessly. The communication with their team was the best I've ever had with any contractor."
+          </p>
+          <div class="pt-2 border-t border-brand-border/60">
+            <h5 class="text-white text-sm font-bold">Marcus T.</h5>
+            <span class="text-xs text-slate-500">Toronto (Etobicoke)</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact & Consultation Booking Form Section -->
+  <section id="contact" class="py-24 bg-brand-darker relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Contact Info Column -->
+        <div class="lg:col-span-5 space-y-8">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-bold uppercase mb-3">
+              <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+              Get In Touch Today
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold font-display text-white">
+              Ready to Build Your Vision?
+            </h2>
+            <p class="text-slate-400 text-sm sm:text-base mt-3 leading-relaxed">
+              Book your complimentary consultation. We review your plans, inspect the space, and supply a guaranteed transparent estimate.
+            </p>
+          </div>
+
+          <!-- Direct Contact Cards -->
+          <div class="space-y-4">
+            
+            <a href="tel:6472700307" class="flex items-center gap-4 bg-brand-slate border border-brand-border hover:border-amber-500 p-4 rounded-xl transition group">
+              <div class="w-12 h-12 rounded-lg bg-amber-500 text-black flex items-center justify-center font-bold text-lg group-hover:scale-105 transition">
+                <i data-lucide="phone" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase font-bold text-slate-400">Direct Consultation Line</span>
+                <div class="text-lg font-black text-amber-400">647-270-0307</div>
+                <span class="text-[11px] text-slate-500">Available Mon - Sat: 8:00 AM - 7:00 PM</span>
+              </div>
+            </a>
+
+            <a href="mailto:khushalbuildersinc@gmail.com" class="flex items-center gap-4 bg-brand-slate border border-brand-border hover:border-amber-500 p-4 rounded-xl transition group">
+              <div class="w-12 h-12 rounded-lg bg-brand-card text-amber-400 border border-brand-border flex items-center justify-center font-bold text-lg group-hover:scale-105 transition">
+                <i data-lucide="mail" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase font-bold text-slate-400">Official Email</span>
+                <div class="text-base font-bold text-white break-all">khushalbuildersinc@gmail.com</div>
+                <span class="text-[11px] text-slate-500">Fast replies within 24 business hours</span>
+              </div>
+            </a>
+
+            <div class="flex items-center gap-4 bg-brand-slate border border-brand-border p-4 rounded-xl">
+              <div class="w-12 h-12 rounded-lg bg-brand-card text-amber-400 border border-brand-border flex items-center justify-center font-bold text-lg">
+                <i data-lucide="map-pin" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase font-bold text-slate-400">Service Coverage</span>
+                <div class="text-sm font-bold text-white">Greater Toronto Area (GTA) & Surrounding Regions</div>
+                <span class="text-[11px] text-slate-500">Toronto, Mississauga, Brampton, Vaughan, Markham, Oakville</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Official Stamp Badge Preview -->
+          <div class="p-4 bg-brand-card/80 border border-brand-border rounded-xl flex items-center gap-4">
+            <img src="assets/logo-badge.svg" alt="Khushal Builders Badge" class="w-16 h-16 shrink-0">
+            <div>
+              <p class="text-xs font-bold text-white">Khushal Builders Inc. Guarantee</p>
+              <p class="text-[11px] text-slate-400">Registered Corporation • Full Commercial & Residential General Liability Coverage.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Consultation Form Column -->
+        <div class="lg:col-span-7">
+          <div class="bg-brand-card border border-brand-border rounded-2xl p-8 sm:p-10 shadow-2xl relative">
+            <h3 class="text-2xl font-bold text-white mb-2">Request A Free Consultation</h3>
+            <p class="text-slate-400 text-xs sm:text-sm mb-6">Fill out the quick form below, and our lead estimator will reach out to schedule an on-site visit.</p>
+
+            <form id="mainConsultForm" onsubmit="event.preventDefault(); submitInquiry(this);" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Your Full Name *</label>
+                  <input type="text" name="name" required placeholder="John Smith" class="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Phone Number *</label>
+                  <input type="tel" name="phone" required placeholder="647-xxx-xxxx" class="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Email Address</label>
+                  <input type="email" name="email" placeholder="john@example.com" class="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">City / Area</label>
+                  <input type="text" name="location" placeholder="e.g. Brampton, Mississauga" class="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Project Type</label>
+                <select name="service" id="formServiceSelect" class="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-500">
+                  <option value="General Renovation">General Renovation Services</option>
+                  <option value="Kitchen Renovation">Kitchen Renovation</option>
+                  <option value="Flooring Services (Laminate $4.50 / Vinyl $5.00 / Hardwood $7.00)">Flooring Services ($4.50 - $7.00/sq.ft)</option>
+                  <option value="Basement Construction">Basement Finishing / Second Unit</option>
+                  <option value="Home Extension">Home Extensions & Additions</option>
+                  <option value="Architectural Drawings">Architectural Designs / Drawings & Permits</option>
+                  <option value="Exterior Renovations">Exterior Renovations</option>
+                  <option value="New Construction">New Construction & Custom Builds</option>
+                  <option value="Commercial Renovation">Commercial Renovation</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Project Details / Estimated Timeline</label>
+                <textarea name="details" id="formDetailsArea" rows="4" placeholder="Tell us about your project, approximate square footage, timeline, and any specific requirements..." class="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500"></textarea>
+              </div>
+
+              <div id="formSuccessMessage" class="hidden bg-emerald-500/20 border border-emerald-500 text-emerald-300 p-4 rounded-xl text-sm">
+                Thank you! Your consultation request has been received. Our team will contact you shortly at the provided number.
+              </div>
+
+              <button type="submit" class="w-full bg-brand-gold hover:bg-amber-400 text-black font-extrabold py-4 rounded-xl text-base transition font-sans flex items-center justify-center gap-2 shadow-xl shadow-amber-500/20">
+                <i data-lucide="send" class="w-5 h-5"></i>
+                Submit For Free Consultation
+              </button>
+
+              <p class="text-[11px] text-slate-500 text-center">
+                Your information is kept 100% confidential. No spam or pushy sales calls.
+              </p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-brand-darker border-t border-brand-border pt-16 pb-24 lg:pb-16 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <!-- Brand Info -->
+        <div class="space-y-4 md:col-span-2">
+          <img src="assets/logo-horizontal.svg" alt="Khushal Builders Inc." class="h-10 w-auto">
+          <p class="text-slate-400 text-sm max-w-md">
+            Khushal Builders Inc. — Transforming your dreams into concrete solutions. Quality residential renovations, kitchen remodeling, custom extensions, basement suites, and precision flooring across the GTA.
+          </p>
+          <div class="flex items-center gap-4 text-slate-300 pt-2">
+            <span class="inline-flex items-center gap-1.5 text-xs text-amber-400">
+              <i data-lucide="check-circle" class="w-4 h-4"></i> Licensed
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-xs text-amber-400">
+              <i data-lucide="check-circle" class="w-4 h-4"></i> Insured
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-xs text-amber-400">
+              <i data-lucide="check-circle" class="w-4 h-4"></i> Free Estimates
+            </span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="space-y-3">
+          <h4 class="text-white text-sm font-bold uppercase tracking-wider">Services</h4>
+          <ul class="space-y-2">
+            <li><a href="#services" class="hover:text-amber-400 transition">Kitchen Remodeling</a></li>
+            <li><a href="#flooring" class="hover:text-amber-400 transition">Flooring ($4.50/sq.ft)</a></li>
+            <li><a href="#services" class="hover:text-amber-400 transition">Basement Suites</a></li>
+            <li><a href="#services" class="hover:text-amber-400 transition">Home Additions</a></li>
+            <li><a href="#services" class="hover:text-amber-400 transition">Commercial Renovation</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Direct -->
+        <div class="space-y-3">
+          <h4 class="text-white text-sm font-bold uppercase tracking-wider">Call Directly</h4>
+          <p class="text-white font-extrabold text-base">
+            <a href="tel:6472700307" class="hover:text-amber-400">647-270-0307</a>
+          </p>
+          <p class="text-slate-400">
+            <a href="mailto:khushalbuildersinc@gmail.com" class="hover:text-amber-400">khushalbuildersinc@gmail.com</a>
+          </p>
+          <p class="text-slate-500 text-[11px]">
+            Website: <a href="http://Khushalbuilders.com" target="_blank" class="text-slate-400 hover:text-amber-400">Khushalbuilders.com</a>
+          </p>
+          <div class="pt-2">
+            <a href="logo-showcase.html" class="inline-flex items-center gap-1 text-amber-400 hover:underline">
+              <span>View Brand Identity & Logo Kit</span>
+              <i data-lucide="external-link" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-t border-brand-border/60 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+        <p>© 2026 Khushal Builders Inc. All rights reserved.</p>
+        <p>We Transform Your Dreams Into Concrete Solutions.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky Action Bar for Mobile -->
+  <div class="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-brand-dark/95 backdrop-blur-md border-t border-brand-border p-3 flex items-center gap-3">
+    <a href="tel:6472700307" class="flex-1 bg-brand-gold hover:bg-amber-400 text-black font-extrabold py-3 rounded-lg text-center text-sm flex items-center justify-center gap-2 shadow-lg">
+      <i data-lucide="phone-call" class="w-4 h-4"></i>
+      <span>Call (647) 270-0307</span>
+    </a>
+    <a href="#contact" class="flex-1 bg-brand-slate hover:bg-slate-800 text-white font-bold py-3 rounded-lg text-center text-sm border border-brand-border">
+      Free Estimate
+    </a>
+  </div>
+
+  <!-- Client-side Interactive JavaScript -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Cost Estimator State
+    let currentRate = 4.50; // Default: Laminate
+    let currentTypeName = 'Laminate';
+
+    const areaSlider = document.getElementById('areaSlider');
+    const areaDisplay = document.getElementById('areaDisplay');
+    const totalEstimateDisplay = document.getElementById('totalEstimateDisplay');
+    const calcBaseRate = document.getElementById('calcBaseRate');
+    const estimateBreakdown = document.getElementById('estimateBreakdown');
+    const addRemoval = document.getElementById('addRemoval');
+    const addBaseboards = document.getElementById('addBaseboards');
+
+    function selectCalcType(type, rate) {
+      currentRate = rate;
+      currentTypeName = type === 'laminate' ? 'Laminate' : (type === 'vinyl' ? 'Vinyl Plank' : 'Engineered Hardwood');
+      
+      // Update UI button borders
+      document.querySelectorAll('.calc-type-btn').forEach(btn => {
+        btn.classList.remove('border-2', 'border-brand-gold', 'bg-amber-500/15', 'text-amber-400');
+        btn.classList.add('border', 'border-brand-border', 'bg-brand-slate', 'text-slate-300');
+      });
+
+      const selectedBtn = document.getElementById(`calcBtn-${type}`);
+      if (selectedBtn) {
+        selectedBtn.classList.add('border-2', 'border-brand-gold', 'bg-amber-500/15', 'text-amber-400');
+        selectedBtn.classList.remove('border-brand-border', 'bg-brand-slate', 'text-slate-300');
+      }
+
+      calcBaseRate.textContent = `$${rate.toFixed(2)} / sq. ft.`;
+      calculateEstimate();
+    }
+
+    function setCalculatorType(type) {
+      if (type === 'laminate') selectCalcType('laminate', 4.50);
+      if (type === 'vinyl') selectCalcType('vinyl', 5.00);
+      if (type === 'hardwood') selectCalcType('hardwood', 7.00);
+    }
+
+    function calculateEstimate() {
+      const sqft = parseInt(areaSlider.value, 10);
+      areaDisplay.textContent = `${sqft.toLocaleString()} sq. ft.`;
+
+      let effectiveRate = currentRate;
+      if (addRemoval.checked) effectiveRate += 0.80;
+      if (addBaseboards.checked) effectiveRate += 1.20;
+
+      const total = Math.round(sqft * effectiveRate);
+      totalEstimateDisplay.textContent = `$${total.toLocaleString()}`;
+
+      let breakdownText = `Includes installation of ${currentTypeName} for ${sqft.toLocaleString()} sq.ft.`;
+      if (addRemoval.checked || addBaseboards.checked) {
+        breakdownText += ' Includes selected prep add-ons.';
+      }
+      estimateBreakdown.textContent = breakdownText;
+    }
+
+    areaSlider.addEventListener('input', calculateEstimate);
+
+    function prefillContactForm() {
+      const sqft = areaSlider.value;
+      const total = totalEstimateDisplay.textContent;
+      const select = document.getElementById('formServiceSelect');
+      const details = document.getElementById('formDetailsArea');
+
+      select.value = 'Flooring Services (Laminate $4.50 / Vinyl $5.00 / Hardwood $7.00)';
+      details.value = `Hi Khushal Builders, I calculated an online estimate of ${total} for ${sqft} sq.ft of ${currentTypeName} flooring. I would like to schedule a free on-site consultation and check material samples.`;
+      
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function submitInquiry(form) {
+      const successBox = document.getElementById('formSuccessMessage');
+      if (successBox) {
+        successBox.classList.remove('hidden');
+      }
+      alert('Thank you for contacting Khushal Builders Inc.! Your consultation request has been logged. You can also reach us immediately at 647-270-0307.');
+      form.reset();
+    }
+  </script>
+</body>
+</html>
