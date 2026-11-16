@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="hOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon: Architectural Hex Shield with KB Monogram -->
+  <g transform="translate(50, 50)">
+    <!-- Shield -->
+    <polygon points="0,-42 38,-18 38,22 0,42 -38,22 -38,-18" fill="#111827" stroke="url(#hGoldGrad)" stroke-width="2.5"/>
+    
+    <!-- Excavator Boom & Hydraulic Arm -->
+    <polygon points="-12,-20 8,-33 16,-26 -4,-13" fill="url(#hOrangeGrad)"/>
+    <polygon points="8,-33 24,-22 20,-18 7,-28" fill="#FCD34D"/>
+    <polygon points="24,-22 30,-25 33,-20 26,-15" fill="#F59E0B"/>
+
+    <!-- K Stem -->
+    <rect x="-22" y="-18" width="10" height="38" rx="1.5" fill="url(#hGoldGrad)"/>
+    <!-- K Arms -->
+    <polygon points="-12,-2 4,-18 -4,-18 -18,-4" fill="url(#hGoldGrad)"/>
+    <polygon points="-12,0 6,20 -2,20 -18,4" fill="url(#hGoldGrad)"/>
+
+    <!-- B Loops -->
+    <path d="M -6,-18 L 10,-18 C 18,-18 24,-13 24,-6 C 24,0 18,3 10,3 L -6,3 Z" fill="#FFFFFF"/>
+    <path d="M -1,-13 L 9,-13 C 13,-13 17,-11 17,-6 C 17,-2 13,0 9,0 L -1,0 Z" fill="#111827"/>
+    
+    <path d="M -6,1 L 13,1 C 21,1 27,6 27,13 C 27,20 21,20 13,20 L -6,20 Z" fill="url(#hGoldGrad)"/>
+    <path d="M -1,6 L 11,6 C 16,6 20,8 20,13 C 20,16 16,16 11,16 L -1,16 Z" fill="#111827"/>
+  </g>
+
+  <!-- Vertical Subtle Accent Bar -->
+  <line x1="108" y1="20" x2="108" y2="80" stroke="#334155" stroke-width="2"/>
+
+  <!-- Right Typography -->
+  <g transform="translate(126, 0)">
+    <!-- Primary Name -->
+    <text x="0" y="46" font-family="'Inter', 'Montserrat', 'Segoe UI', Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="4" fill="#FFFFFF">
+      KHUSHAL
+    </text>
+    
+    <!-- Secondary Name -->
+    <text x="180" y="46" font-family="'Inter', 'Montserrat', 'Segoe UI', Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="4" fill="#F59E0B">
+      BUILDERS
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="2" y="72" font-family="'Inter', 'Montserrat', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#94A3B8">
+      INC. • GENERAL CONTRACTING &amp; RENOVATION
+    </text>
+
+    <!-- Golden Accent Rule -->
+    <rect x="2" y="81" width="375" height="2" fill="url(#hGoldGrad)" rx="1"/>
+  </g>
+</svg>
